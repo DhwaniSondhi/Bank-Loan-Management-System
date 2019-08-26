@@ -1,11 +1,11 @@
 # Bank-Loan-Management-System
-A loan management system built to experiment and compare message passing techniques in Java and Erlang.
+A loan management system built to experiment and compare message passing techniques (between different processes/threads) in Java and Erlang.
 
 **Two input files:**
 - **customers.txt** : list of customers and loan amount required.
 - **banks.txt** : list of banks and amount they can lend.
 
-The application is created to depict the bank's loan management environment in which banks and customers are distinct entities, such that each will be modeled as separate task/process.
+The application is created to depict the bank's loan management environment in which banks and customers are distinct entities, such that each will be modeled as separate task/process. And, we aim to compare the techniques used to pass messages among threads or processes in Java and Erlang.
 
 
 ## Mechanism
