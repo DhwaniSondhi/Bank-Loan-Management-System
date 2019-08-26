@@ -1,5 +1,5 @@
 # Bank-Loan-Management-System
-A loan management system build to experiment message passing in Java and Erlang.
+A loan management system built to experiment and compare message passing techniques in Java and Erlang.
 
 **Two input files:**
 - **customers.txt** : list of customers and loan amount required.
