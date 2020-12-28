@@ -5,7 +5,7 @@ A loan management system built to experiment and compare message passing techniq
 - **customers.txt** : list of customers and loan amount required.
 - **banks.txt** : list of banks and amount they can lend.
 
-The application is created to depict the bank's loan management environment in which banks and customers are distinct entities, such that each will be modeled as separate task/process. And, we aim to compare the techniques used to pass messages among threads or processes in Java and Erlang.
+The application is created to depict the bank's loan management environment in which banks and customers are distinct entities, such that each will be modeled as a separate task/process. And, we aim to compare the techniques used to pass messages among threads or processes in Java and Erlang.
 
 
 ## Mechanism
@@ -23,7 +23,7 @@ A series of info messages will be printed to the screen:
 - Banks will indicate whether they have accepted or denied a given request.
 - Before the program ends, customers will indicate if they have reached their goal or not.
 - Before the program ends, banks will indicate their remaining funds.
-- The information will be printed in master process/main thread.
+- The information will be printed in the master process/main thread.
 
 **Two versions:**
 
